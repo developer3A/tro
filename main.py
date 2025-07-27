@@ -88,7 +88,7 @@ LANGUAGES = {
         'ad_stats': "Ad performance statistics:\n{stats}",
         'earn_no_ads': "No new ads available at the moment.",
         'earn_caption': "💸 Earn {reward} $TRC!\n🔗 Channel: {link}\n📜 {description}",
-        'earn_limit_reached': "{link}\nReward limit reached.",
+        'earn_limit_reached': "{link} -\nReward limit reached and the advertisement has been removed.",
         'earn_already_received': "{link}\n✅ Reward already received.",
         'earn_not_subscribed': "{link}\n❌ You are not subscribed.",
         'earn_error': "{link}\n❌ Could not check channel: {error}",
@@ -1228,5 +1228,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
-
